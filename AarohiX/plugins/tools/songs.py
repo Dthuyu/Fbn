@@ -67,7 +67,7 @@ async def song(_, message: Message):
 
         visit_butt = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="- المنشئ .", url=SUPPORT_CHAT)],
+        [InlineKeyboardButton(text="- Source Dark .", url=SUPPORT_CHAT)],
     ]
 )
         # Reply to the user who initiated the search
