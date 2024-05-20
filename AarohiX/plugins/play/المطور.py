@@ -27,22 +27,22 @@ async def mmmezat(client, message):
     )
 
 @app.on_message(
-    command(["المطور", "السورس", "المصنع"])
+    command(["المطور", "مطور السورس", "السورس"])
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://te.legra.ph/file/08cec0a2a844713e1624a.jpg",
-        caption="~ Team freedom \n~ Dav Source",
+        photo="https://graph.org/file/712531ecafbed454b8bff.jpg",
+        caption="~ Source Dark .",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "- مطور البوت .", url=f"tg://openmessage?user_id={config.OWNER_ID}"
+                        "- مطور السورس .", url=f"tg://openmessage?user_id={config.OWNER_ID}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "- قناة البوت . ", url=config.SUPPORT_CHAT
+                        "- قناة السورس . ", url=config.SUPPORT_CHAT
                     ),
                 ],
             ]
